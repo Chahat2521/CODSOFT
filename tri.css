@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+  background-image: url(flag1.avif);
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: lighten;
+  opacity: 1;
+  min-height: 100px;
+  border: 5px solid #1d1e4c;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .bar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .bar h1 {
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: inline;
+    color:#0f7c5f;
+    text-transform: uppercase;
+  }
+  .bar h4 {
+    font-size: 30px;
+    text-align:justify;
+  }
+  
+  .image {
+    border-radius: 25%;
+    overflow: hidden;
+  }
+  
+  .image,
+  img {
+    width: 400px;
+    height: 400px;
+    border-color: #1d1e4c;
+  }
+  .missile {
+    margin-top: 50px;
+  }
+  .missile h2 {
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .missile p {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  .bio {
+    margin: 50p;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  .bio h2 {
+    margin-bottom: 20px;
+    color: #0f7c5f;
+  }
+  .bio ul {
+    margin-left: 50px;
+  }
+  .bio li {
+    margin-bottom: 15px;
+  }
+
+  .last h2{
+    margin-bottom: 20px;
+    color: #0f7c5f;
+    
+    
+
+  }
+  .last p{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  text-align: justify;
+
+  }
+  a{
+    color: rgb(3, 32, 255);
+  }
+  
+  footer {
+    margin: 50px 0;
+    margin-right: 20px;
+  }
+  footer p {
+    text-align: center;
+  }
